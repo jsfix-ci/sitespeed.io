@@ -49,7 +49,7 @@
         "simplecrawler": "1.1.9",
         "tape": "5.5.3",
         "text-table": "0.2.0",
-        "uuid": "8.3.2",
+        "uuid": "^9.0.0",
         "yargs": "17.4.1"
       },
       "bin": {
@@ -7891,6 +7891,14 @@
         "node": ">=10"
       }
     },
+    "node_modules/teeny-request/node_modules/uuid": {
+      "version": "8.3.2",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
+      "integrity": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+      "bin": {
+        "uuid": "dist/bin/uuid"
+      }
+    },
     "node_modules/temp-dir": {
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/temp-dir/-/temp-dir-2.0.0.tgz",
@@ -8161,9 +8169,9 @@
       "dev": true
     },
     "node_modules/uuid": {
-      "version": "8.3.2",
-      "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
-      "integrity": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+      "version": "9.0.0",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz",
+      "integrity": "sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==",
       "bin": {
         "uuid": "dist/bin/uuid"
       }
@@ -14645,6 +14653,13 @@
         "node-fetch": "^2.6.1",
         "stream-events": "^1.0.5",
         "uuid": "^8.0.0"
+      },
+      "dependencies": {
+        "uuid": {
+          "version": "8.3.2",
+          "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
+          "integrity": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+        }
       }
     },
     "temp-dir": {
@@ -14873,9 +14888,9 @@
       "dev": true
     },
     "uuid": {
-      "version": "8.3.2",
-      "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
-      "integrity": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+      "version": "9.0.0",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz",
+      "integrity": "sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg=="
     },
     "v8-compile-cache": {
       "version": "2.3.0",
